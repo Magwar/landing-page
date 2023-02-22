@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+}
+
+.heading{
+    background-color: #1F2937;
+    /* background-image: url("garage.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    padding: 15px 150px 60px 150px ;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Mynerve', cursive;
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navlinks a{
+    font-size: 20px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+/* .navlinks a:hover{
+    color: #1F2937;
+} */
+
+
+/* .pagepic{
+    width: 300px;
+    height: 200px;
+} */
+
+.picture{
+    height: 280px;
+    width: 500px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidecontent{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+;
+}
+.pcontent{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 15px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 7px;
+    color: white
+}
+
+.section{
+    text-align: center;
+    padding: 15px 150px 60px 150px ;
+ ;
+}
+
+.section-content{
+    font-size: 39px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 40px ;
+}
+
+.service-img{
+    height: 150px;
+    width: auto;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    border: 2px solid #3882F6;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+.text{
+    color: #1F2937;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.testimonials{
+    flex-wrap: wrap;
+    row-gap: 5px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 60px 150px ;
+}
+
+.comments{
+    height: 200px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 20px 0;
+    box-shadow: 5px 5px 7px #3882F6;
+    padding: 15px;
+}
+
+.names{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.action{
+    padding: 60px 150px 60px 150px ;
+
+}
+
+.call-to-action{
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.sign{
+    font-size: 20px;
+    padding: 5px 25px;
+    border: 2px solid #F9FAF8;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
