@@ -6,14 +6,14 @@
 }
 
 .container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading{
     background-color: #1F2937;
-    /* background-image: url("garage.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    padding: 15px 150px 60px 150px ;
+    padding: 15px 100px 50px;
 }
 
 .navbar{
@@ -21,7 +21,7 @@
     justify-content:space-between;
     align-items: center;
     text-transform: uppercase;
-    padding-bottom: 40px;
+    padding: 7px;
 }
 
 .logo{
@@ -33,37 +33,38 @@
 
 .navlinks{
     display: flex;
-    gap: 30px;
+    font-size: 24px;
+    gap: 25px;
     list-style: none;
 }
 
 .navlinks a{
-    font-size: 20px;
+    font-size: 25px;
     color: #E5E7EB;
     text-decoration: none;
+    letter-spacing: 1.5px;
+    transition: 2ms ease;
 }
-/* .navlinks a:hover{
-    color: #1F2937;
-} */
-
-
-/* .pagepic{
-    width: 300px;
-    height: 200px;
-} */
+.navlinks a:hover{
+    color: greenyellow;
+}
 
 .picture{
-    height: 280px;
-    width: 500px;
+    height: 250px;
+    width: auto;
+    opacity: 80%;
+    border-radius: 29px;
 }
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.sidecontent{
+.sideContent{
+    flex-grow: 2;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -71,81 +72,85 @@
     font-family: 'Roboto Mono', monospace;
 ;
 }
-.pcontent{
+.pContent{
     font-size: 18px;
     color: #E5E7EB;
     font-family: 'Roboto Mono', monospace;
     padding-bottom: 15px;
 }
 
-button{
+.cButton{
+    font-size: 19px;
     background-color: #3882F6;
-    padding: 3px 20px;
+    padding: 5px 15px;
     border: none;
     border-radius: 7px;
     color: white
 }
 
 .section{
-    text-align: center;
-    padding: 15px 150px 60px 150px ;
- ;
+    padding: 15px 100px 50px;
 }
 
 .section-content{
+    text-align: center;
     font-size: 39px;
     font-weight: bolder;
     color: #1F2937;
     font-family: 'Roboto Mono', monospace;
-    padding-bottom: 40px ;
+    padding: 10px;
 }
 
 .service-img{
     height: 150px;
     width: auto;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     margin-bottom: 5px;
-    border: 2px solid #3882F6;
+    /* border: 2px solid #3882F6; */
 }
 .projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     row-gap: 10px;
-    justify-content: space-between;
 }
 
 .text{
+    text-align: center;
     color: #1F2937;
     font-family: 'Roboto Mono', monospace;
 }
 
 .testimonials{
-    flex-wrap: wrap;
-    row-gap: 5px;
-    background-color: #E5E7EB;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 150px 60px 150px ;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    background-color: #E5E7EB;
+    padding: 20px 100px 50px;
 }
 
 .comments{
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
     width: 250px;
-    border: 3px solid black;
+    border: 0.2px solid #000000;
     border-radius: 20px 0;
     box-shadow: 5px 5px 7px #3882F6;
     padding: 15px;
 }
 
 .names{
+    margin-top: auto;
     display: flex;
     justify-content: flex-end;
-    margin-top: 3px;
     font-weight: bold;
 }
 
 .action{
-    padding: 60px 150px 60px 150px ;
+    padding: 50px 100px;
 
 }
 
@@ -155,20 +160,26 @@ button{
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 0;
+    flex-wrap: wrap;
+    padding: 20px 10px;
     border-radius: 10px;
     background-color: #3882F6;
 }
 
 .sign{
     font-size: 20px;
-    padding: 5px 25px;
-    border: 2px solid #F9FAF8;
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: #E5E7EB 2px solid;
 }
 
 .copyright{
+    margin-top: auto;
     text-align: center;
     padding: 20px;
     background-color: #1F2937;
